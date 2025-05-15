@@ -147,7 +147,7 @@
   <img src="images/kanatcilogo2.svg" alt="Logo" class="logo" />
 
   <!-- Video Background -->
-  <video class="video-bg" autoplay muted loop>
+  <video class="video-bg" autoplay muted loop playsinline>
     <source src="images/menüvideo.mp4" type="video/mp4">
     Tarayıcınız video etiketini desteklemiyor.
   </video>
@@ -179,7 +179,7 @@
       setTimeout(() => {
         document.getElementById("preloader").style.display = "none";
         document.getElementById("content").style.display = "block";
-      }, 1500);
+      }, 500);
     });
   </script>
 
